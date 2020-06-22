@@ -13721,6 +13721,11 @@ public class FirOldFrontendDiagnosticsTestGenerated extends AbstractFirOldFronte
                 runTest("compiler/testData/diagnostics/tests/j+k/sam/recursiveSamsAndInvoke.kt");
             }
 
+            @TestMetadata("samConversionForNullableLambda.kt")
+            public void testSamConversionForNullableLambda() throws Exception {
+                runTest("compiler/testData/diagnostics/tests/j+k/sam/samConversionForNullableLambda.kt");
+            }
+
             @TestMetadata("samOnTypeParameter.kt")
             public void testSamOnTypeParameter() throws Exception {
                 runTest("compiler/testData/diagnostics/tests/j+k/sam/samOnTypeParameter.kt");
