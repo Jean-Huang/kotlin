@@ -5765,7 +5765,7 @@ public inline fun <R : Comparable<R>> UShortArray.maxBy(selector: (UShort) -> R)
 /**
  * Returns the first element yielding the largest value of the given function or `null` if there are no elements.
  * 
- * @sample samples.collections.Collections.Aggregates.maxBy
+ * @sample samples.collections.Collections.Aggregates.maxByOrNull
  */
 @SinceKotlin("1.4")
 @ExperimentalUnsignedTypes
@@ -5790,7 +5790,7 @@ public inline fun <R : Comparable<R>> UIntArray.maxByOrNull(selector: (UInt) -> 
 /**
  * Returns the first element yielding the largest value of the given function or `null` if there are no elements.
  * 
- * @sample samples.collections.Collections.Aggregates.maxBy
+ * @sample samples.collections.Collections.Aggregates.maxByOrNull
  */
 @SinceKotlin("1.4")
 @ExperimentalUnsignedTypes
@@ -5815,7 +5815,7 @@ public inline fun <R : Comparable<R>> ULongArray.maxByOrNull(selector: (ULong) -
 /**
  * Returns the first element yielding the largest value of the given function or `null` if there are no elements.
  * 
- * @sample samples.collections.Collections.Aggregates.maxBy
+ * @sample samples.collections.Collections.Aggregates.maxByOrNull
  */
 @SinceKotlin("1.4")
 @ExperimentalUnsignedTypes
@@ -5840,7 +5840,7 @@ public inline fun <R : Comparable<R>> UByteArray.maxByOrNull(selector: (UByte) -
 /**
  * Returns the first element yielding the largest value of the given function or `null` if there are no elements.
  * 
- * @sample samples.collections.Collections.Aggregates.maxBy
+ * @sample samples.collections.Collections.Aggregates.maxByOrNull
  */
 @SinceKotlin("1.4")
 @ExperimentalUnsignedTypes
@@ -6777,7 +6777,7 @@ public inline fun <R : Comparable<R>> UShortArray.minBy(selector: (UShort) -> R)
 /**
  * Returns the first element yielding the smallest value of the given function or `null` if there are no elements.
  * 
- * @sample samples.collections.Collections.Aggregates.minBy
+ * @sample samples.collections.Collections.Aggregates.minByOrNull
  */
 @SinceKotlin("1.4")
 @ExperimentalUnsignedTypes
@@ -6802,7 +6802,7 @@ public inline fun <R : Comparable<R>> UIntArray.minByOrNull(selector: (UInt) -> 
 /**
  * Returns the first element yielding the smallest value of the given function or `null` if there are no elements.
  * 
- * @sample samples.collections.Collections.Aggregates.minBy
+ * @sample samples.collections.Collections.Aggregates.minByOrNull
  */
 @SinceKotlin("1.4")
 @ExperimentalUnsignedTypes
@@ -6827,7 +6827,7 @@ public inline fun <R : Comparable<R>> ULongArray.minByOrNull(selector: (ULong) -
 /**
  * Returns the first element yielding the smallest value of the given function or `null` if there are no elements.
  * 
- * @sample samples.collections.Collections.Aggregates.minBy
+ * @sample samples.collections.Collections.Aggregates.minByOrNull
  */
 @SinceKotlin("1.4")
 @ExperimentalUnsignedTypes
@@ -6852,7 +6852,7 @@ public inline fun <R : Comparable<R>> UByteArray.minByOrNull(selector: (UByte) -
 /**
  * Returns the first element yielding the smallest value of the given function or `null` if there are no elements.
  * 
- * @sample samples.collections.Collections.Aggregates.minBy
+ * @sample samples.collections.Collections.Aggregates.minByOrNull
  */
 @SinceKotlin("1.4")
 @ExperimentalUnsignedTypes
